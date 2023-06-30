@@ -1,0 +1,26 @@
+POST http://localhost:8080/rewrite-excel-write-sheet
+Content-Type: application/x-www-form-urlencoded
+
+custom_month=2023-06
+
+###
+GET http://localhost:8080/cronjob-excel-write-sheet
+Accept: application/json
+
+###
+POST http://localhost:8080/submit-form-data
+Content-Type: application/x-www-form-urlencoded
+
+full_name=Test&email=test@gmail.com&phone=0987654321
+
+###
+GET http://localhost:8080/migration-create-table
+Accept: application/json
+
+###
+POST http://localhost:8080/cronjob/set-api-start
+Content-Type: application/x-www-form-urlencoded
+
+api=aHR0cDovL2xvY2FsaG9zdDo4MDgwL2Nyb25qb2ItZXhjZWwtd3JpdGUtc2hlZXQ=&start=true&spec=*_*_*_*_*
+
+###

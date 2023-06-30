@@ -1,0 +1,5 @@
+go.sum
+**/vendor
+sheet_connect/token
+main
+token.json

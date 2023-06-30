@@ -1,0 +1,11 @@
+.idea
+.git
+node_modules
+__debug_bin*
+sheet.report.js
+format.sh
+.gitignore
+sheet_report
+!vendor
+!**/vendor
+main
